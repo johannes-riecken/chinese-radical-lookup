@@ -16,7 +16,7 @@ import javafx.util.Duration;
 
 
 
-public class SkritterLookup extends Application {
+public class ChineseRadicalLookup extends Application {
     private String oldString = "";
     
     @Override
