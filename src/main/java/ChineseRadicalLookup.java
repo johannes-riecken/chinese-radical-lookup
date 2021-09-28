@@ -1,4 +1,5 @@
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 import javafx.animation.KeyFrame;
@@ -82,7 +83,7 @@ public class ChineseRadicalLookup extends Application {
 
             in = new BufferedReader(
                new InputStreamReader(
-                          new FileInputStream(fileDir), "UTF8"));
+                          new FileInputStream(fileDir), StandardCharsets.UTF_8));
 //            in = new BufferedReader(new FileReader(file));
             String line;
             while ((line = in.readLine()) != null) {
